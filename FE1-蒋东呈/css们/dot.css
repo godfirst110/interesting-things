@@ -1,0 +1,33 @@
+.dots{
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 3%;
+}
+.dot{
+    width: 5%;
+    height: 100%;
+    border-radius: 50%;
+    
+    margin: 0 5%;
+    border: 5px solid rgb(79, 77, 77);
+    transition: all 0.3s ease-in-out;
+}
+/* 选中后的样式 */
+.dd{
+    width: 5%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgb(123, 121, 124);
+    margin: 0 5%;
+    border: 5px solid rgb(57, 56, 56);
+}
+.dot:hover{
+    background-color: white;
+    opacity: 0.5;
+}
